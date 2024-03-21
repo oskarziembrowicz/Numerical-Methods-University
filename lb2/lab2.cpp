@@ -133,7 +133,6 @@ vector<vector<float>> matrixMultiplying(vector<vector<float>> matrix1, int n1, i
         }
     }
     return output;
-
 }
 
 int main() {
