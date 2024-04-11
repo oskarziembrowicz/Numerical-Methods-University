@@ -102,7 +102,7 @@ vector<vector<double>> multiplyMatrices(const vector<vector<double>>& matrix1, c
 // x = A^(-1) * b
 
 vector<vector<double>> calculatingX(vector<vector<double>> matrixA, vector<vector<double>> B) {
-    return multiplyMatrices(matrixA, B);
+    return multiplyMatrices(invertMatrix(matrixA), B);
 }
 
 // Ax=b

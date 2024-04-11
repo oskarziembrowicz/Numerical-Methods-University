@@ -32,7 +32,6 @@ float zad1Maximum(vector<int> v1) {
         }
     }
     return maximum;
-
 }
 
 float zad2Euklides(vector<float> p1, vector<float> p2) {
