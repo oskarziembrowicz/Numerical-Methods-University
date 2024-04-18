@@ -41,8 +41,8 @@ double diffmul(vector<double> x, map<double, double> f) {
         v1.push_back(x[0]);
         v2.push_back(x[1]);
     } else {
-        copy(x.begin()+1, x.end(), back_inserter(v1));
-        copy(x.begin(), x.end()-1, back_inserter(v2));
+        v1.assign(x.begin()+1, x.end());
+        v2.assign(x.begin(), x.end()-1);
     }
     // v1.erase(v1.begin());
     // v2.erase(v2.begin()+n-1);
