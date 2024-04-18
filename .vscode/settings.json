@@ -3,6 +3,8 @@
     "vector": "cpp",
     "cstdlib": "cpp",
     "iostream": "cpp",
-    "cmath": "cpp"
+    "cmath": "cpp",
+    "map": "cpp",
+    "xutility": "cpp"
   }
 }
